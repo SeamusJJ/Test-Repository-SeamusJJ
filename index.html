@@ -1,1 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#547ca8" />
+    <title>Workspace</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Workspace home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Workspace</span>
+      </a>
+      <div class="topbar-space" aria-hidden="true"></div>
+    </header>
 
+    <div class="shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <nav class="nav-list">
+          <a class="nav-link is-active" href="#home" aria-current="page">
+            <span class="nav-icon home-icon" aria-hidden="true"></span>
+            <span>Home</span>
+          </a>
+          <a class="nav-link" href="#projects">
+            <span class="nav-icon grid-icon" aria-hidden="true"></span>
+            <span>Projects</span>
+          </a>
+          <a class="nav-link" href="#settings">
+            <span class="nav-icon settings-icon" aria-hidden="true"></span>
+            <span>Settings</span>
+          </a>
+        </nav>
+      </aside>
+      <main class="main-content" id="main-content" aria-label="Content"></main>
+    </div>
+  </body>
+</html>
